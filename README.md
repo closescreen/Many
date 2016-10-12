@@ -6,6 +6,7 @@
 
 [![codecov.io](http://codecov.io/github/closescreen/Many.jl/coverage.svg?branch=master)](http://codecov.io/github/closescreen/Many.jl?branch=master)
 
+```
 
 using MT: days
 days( Date(2016,04,04), 3) |> first # 2016-04-04
@@ -18,3 +19,5 @@ Keyword argument \"direction\" in days() and Hours() may be one of:
     
     f.e.: 
     days( Date(2016,04,04), 3, direction=:b) |> first # 2016-04-06
+
+```

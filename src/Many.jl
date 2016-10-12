@@ -1,5 +1,7 @@
 module Many
 
-# package code goes here
+include("manytime.jl")
+include("hours.jl")
+include("days.jl")
 
-end # module
+end
